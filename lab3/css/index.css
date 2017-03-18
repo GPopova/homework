@@ -1,0 +1,137 @@
+
+@font-face {
+    font-family: "OpenSansRegular";
+    src: url("/fonts/OpenSansRegular.eot");
+    src: url("/fonts/OpenSansRegular.eot?#iefix")format("embedded-opentype"),
+    url("/fonts/OpenSansRegular.woff") format("woff"),
+    url("/fonts/OpenSansRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+*{
+    box-sizing: border-box;
+}
+.clearfix,
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+.clearfix:after{
+    clear: both;
+}
+body{
+    font-family: "OpenSansRegular", sans-serif;
+    position: relative;
+    background-color: #f9f9f9;
+    font-size: 13px;
+}
+.main{
+    width: 1060px;
+    min-height: 300px;
+    margin:0 auto;
+    padding: 50px;
+    background-color: #fff;
+    box-shadow: 0 5px 5px rgba(0,0,0,.3);
+}
+.logo{
+    width: 145px;
+    height: 40px;
+}
+.nav{
+    background-color: #5e5e5e;
+    margin-top: 40px;
+    background-image: linear-gradient(bottom, #e1e1e1 0%, #e1e1e1 100%);
+    background-image: -moz-linear-gradient(bottom, #e1e1e1 0%, #e1e1e1 100%);
+    background-image: -o-linear-gradient(bottom, #e1e1e1 0%, #e1e1e1 100%);
+}
+.nav ul{
+    font-size: 15px;
+    text-shadow: 0 1px 1px rgba(0,0,0,.5);
+}
+ul li{
+  display: inline-block;
+}
+ul li a{
+    padding: 10px 40px; /* чтобы вся ячейка выделялась*/
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    border-right: 1px solid transparent;/* прозрачный цвет*/
+    border-left: 1px solid transparent;/* прозрачный цвет*/
+}
+ul li a:hover{ /*тень при наведении мышкой*/
+    background-color: #474747;
+    border-right: 1px solid #838383;
+    border-left: 1px solid #838383;
+}
+.container{
+    padding-top: 40px;
+    overflow: hidden;
+}
+.leftmenu{
+    width: 240px;
+    border: 1px solid #c8c8c8;
+    float: left;
+}
+
+.list li{
+    display: inline-block;
+    border-top:1px solid #c8c8c8;
+}
+.list li a{
+    color: #656363;
+    padding: 13px 20px;
+    width: 240px;
+}
+.list li a:hover{
+    color: #2c2c2c;
+    background-color: #f9f9f9;
+    padding-left: 35px;
+}
+.list li:first-child { /*убирает двойную границу вверху*/
+    border-top: 0;
+}
+
+.content{
+    width: 676px;
+    float: right;
+}
+.image{
+    float: right;
+    border: 1px solid #c7c7c7;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.text{
+    padding: 35px 25px;
+    float: right;
+    color: #2c2b2b; /* text color */
+    line-height: 22px;
+}
+.footer{
+    background-color: #e1e1e1;
+    margin-top: 40px;
+    bottom:0px;
+}
+
+.menu li a{
+    color: #2c2c2c;
+}
+.menu li a:hover{
+    text-decoration: underline;
+    background-color:#e1e1e1;
+    border-left: 1px solid transparent;
+    border-right: 1px solid transparent;
+}
+.menu .copy{
+    float: right;
+    padding-right: 24px;
+    padding-top: 10px;
+}
+
+
+
+
+
