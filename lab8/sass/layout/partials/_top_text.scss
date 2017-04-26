@@ -1,0 +1,27 @@
+.top_text{
+  background: $bg-black;
+  margin-top: 164px;
+  min-height: 400px;
+  background-color: rgba($bg-black, .2);
+  .lorem{
+    @include padding-v(80px);
+    h3 {
+      color: $pink;
+    }
+    p {
+      max-width: 520px;
+      font-size: $fs-title;
+      line-height: $lh-md;
+      font-weight: 300;
+      margin-top: 10px;
+      font-family:$open-sans-l;
+    }
+  }
+  .phone{
+    img {
+      width: 274px;
+      height: 434px;
+      margin: -34px 0 0 50px;
+    }
+  }
+}

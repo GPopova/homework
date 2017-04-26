@@ -1,0 +1,17 @@
+.footer{
+  background-image: url("/images/bg-footer.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-top: 48px;
+  min-height: 116px;
+  font-family: $open-sans-l;
+  text-shadow: $shadow-black-medium;
+  .designed{
+    float:right;
+    font-weight: 300;
+    font-size: 0.75rem;
+    span{
+      font-weight: 700;
+    }
+  }
+}

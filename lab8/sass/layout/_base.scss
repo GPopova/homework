@@ -1,0 +1,26 @@
+*, :after, :before, :hover {
+  box-sizing: border-box;
+}
+
+body{
+  overflow-x: hidden;
+  font-family: $open-sans-l;
+  font-size: $fs-base;
+  color: $white;
+  position: relative;
+}
+a{
+  color: $white;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+h1 {
+  font-size: $fs-extra-large;
+}
+
+h3 {
+  font-size: $fs-title-extra-large;
+  color: $gray-d;
+  text-transform: uppercase;
+  font-family: $league-gothic-r;
+}

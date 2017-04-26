@@ -1,0 +1,53 @@
+.about{
+  border-top: $border-black-sm;
+  border-bottom: $border-black-sm;
+  min-height: 340px;
+  padding: 80px 0 40px;
+  @include gradient-v(#312539, #745083);
+  .first, .second, .third{
+    max-width: 280px;
+    position: relative;
+    padding-left: 50px;
+    h3{
+      color:$white;
+    }
+    p{
+      max-height: 102px;
+      line-height: $lh-md;
+      overflow: hidden;
+      @include margin-v(20px);
+    }
+    a{
+      float: right;
+      font-family: $league-gothic-r;
+      @include transition-all(.3s);
+      @include on-state {
+        text-shadow: $shadow-white-hover;
+      }
+    }
+  }
+  .first{
+    h3{
+      @include before-absolute {
+        @include icon(wrenchT);
+        left: 0;
+      }
+    }
+  }
+  .second{
+    h3{
+      @include before-absolute {
+        @include icon(speackT);
+        left: 0;
+      }
+    }
+  }
+  .third{
+    h3{
+      @include before-absolute {
+        @include icon(musicT);
+        left: 0;
+      }
+    }
+  }
+}

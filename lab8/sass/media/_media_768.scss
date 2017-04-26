@@ -1,0 +1,136 @@
+@media (max-width: 991px) {
+.container {
+  [class*="col-"] {
+    padding: 0 20px;
+  }
+}
+  header {
+    min-height: 800px;
+
+    .logo {
+      margin-bottom: 0;
+    }
+    .menutop {
+      float: left;
+      margin-top: 40px;
+
+      li:first-child {
+        margin-left: 0;
+      }
+      a:first-child {
+        padding-left: 0;
+      }
+    }
+  }
+  .top_text {
+    .lorem {
+      h1 {
+        font-size: $fs-large;
+      }
+      h2 {
+        font-size: $fs-title-large;
+      }
+      p {
+        padding-right: 60px;
+        max-height: 100px;
+        overflow: hidden;
+        font-size: $fs-base;
+        line-height: 24px;
+      }
+    }
+    .phone {
+      padding-left: 24px;
+    }
+  }
+  .about {
+    .first,.second,.third {
+      width: 200px;
+      h3 {
+        font-size: $fs-title-large;
+      }
+      p {
+        height: 140px;
+      }
+    }
+  }
+  .recent {
+    .star {
+      padding: 30px 25px 45px 40px;
+      &::after {
+        display: none;
+      }
+      h3 {
+        font-size: $fs-title-large;
+        span {
+          display: block;
+        }
+      }
+      p {
+        font-size: 1rem;
+        max-height: 150px;
+        overflow: hidden;
+      }
+    }
+    .updates {
+      padding-left: 0;
+      p {
+        padding-bottom: 20px;
+        max-height: 20px;
+        line-height:1.5rem;
+        overflow: hidden;
+        &:before{
+          left:0;
+        }
+      }
+      p1{
+        max-height: 20px;
+        line-height:1.5rem;
+        overflow: hidden;
+      }
+    }
+  }
+  .logos{
+    .sprites{
+      padding-left: 0;
+      .one, .two,.three,.fourth,.five,.six{
+        margin-left: 36px;
+      }
+    }
+    .sprites_sm,.sprites_xs{
+      display: none;
+    }
+  }
+    .last {
+      .before_footer {
+        max-height: 204px;
+        width: 204px;
+        h3 {
+          color: $gray-d;
+          font-size: $fs-title-large;
+          padding-bottom: 15px;
+        }
+        .text{
+          margin-top: 0;
+        }
+      }
+    }
+    .footer{
+      background-image: url("/images/bg-footer2.png");
+      background-repeat:no-repeat;
+      background-position: 0 100%;
+      .menubottom{
+        font-size: 1.25rem;
+          li{
+            padding-left: 34px;
+            &:first-child{
+              padding-left: 0;
+            }
+          }
+      }
+      .designed{
+        padding-top: 100px;
+        padding-bottom: 85px;
+        font-size: 0.75rem;
+      }
+    }
+}

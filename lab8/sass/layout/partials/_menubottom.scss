@@ -1,0 +1,24 @@
+.menubottom {
+  float: left;
+  font-family: $league-gothic-r;
+  ul {
+    font-size: 0;
+    li {
+      display: inline-block;
+      font-size: 1.25rem;
+      text-transform: uppercase;
+      a {
+        text-decoration: none;
+        text-shadow: $shadow-black-medium;
+        color: $white;
+        &:hover {
+          border-bottom: $border-pink-m;
+        }
+      }
+      padding-left: 42px;
+      &:first-child {
+        padding-left: 0;
+      }
+    }
+  }
+}

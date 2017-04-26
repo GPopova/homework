@@ -1,0 +1,75 @@
+@media (max-width: 479px){
+  .header {
+    min-height: 517px;
+
+    .top_text {
+      background-color: transparent;
+      .lorem{
+        display: none;
+      }
+      .lorem_2{
+        text-align: center;
+        display: block;
+        padding-top: 95px;
+        padding-bottom: 95px;
+        //text-align: left;
+        h1{
+          font-size: 2.25rem;
+          color: $white;
+        }
+        h3{
+          font-size: $fs-title;
+          color: $pink;
+        }
+      }
+      .phone{
+        display: none;
+      }
+    }
+  }
+  .recent{
+    //padding:0 -20px;
+    .updates{
+      width: 280px;
+      p{
+        max-width: 215px;
+        overflow: hidden;
+      }
+      p1{
+        max-width: 288px;
+      }
+    }
+  }
+  .logos{
+    .sprites,.sprites_sm{
+      display: none;
+    }
+    .sprites_xs{
+      display: block;
+      ul {
+        margin-top: 52px;
+        text-align: center;
+        .three,.five{
+          margin-left: 0;
+        }
+        .six{
+          margin-left: 20px;
+        }
+      }
+        .c {
+          margin-bottom: 52px;
+        }
+    }
+  }
+  .last{
+    display:none;
+  }
+  .footer{
+    .menubottom{
+      display: none;
+    }
+    .designed{
+      padding-top: 50px;
+    }
+  }
+}

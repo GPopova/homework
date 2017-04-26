@@ -1,0 +1,25 @@
+.menutop {
+  float: right;
+  margin-top: 10px;
+  ul {
+    font-size: 0;
+    li {
+      display: inline-block;
+      font-size: $fs-title-large;
+      text-transform: uppercase;
+      a {
+        text-decoration: none;
+        text-shadow: $shadow-black-medium;
+        color: $white;
+        padding: 0 3px;
+        &:hover {
+          border-bottom: $border-pink-m;
+        }
+      }
+      padding-left: 52px;
+      &:first-child {
+        padding-left: 0;
+      }
+    }
+  }
+}

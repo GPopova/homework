@@ -73,11 +73,13 @@ ul li a:hover{ /*тень при наведении мышкой*/
     width: 240px;
     border: 1px solid #c8c8c8;
     float: left;
+
 }
 
 .list li{
     display: inline-block;
     border-top:1px solid #c8c8c8;
+
 }
 .list li a{
     color: #656363;

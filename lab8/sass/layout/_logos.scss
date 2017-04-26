@@ -1,0 +1,13 @@
+.logos{
+  background-color: $bg-gray;
+  min-height: 120px;
+  border-bottom: 1px solid $gray;
+  .sprites{
+    padding-top: 26px;
+    padding-left: 92px;
+    display: inline-block;
+  }
+  .sprites_sm,.sprites_xs{
+    display: none;
+  }
+}

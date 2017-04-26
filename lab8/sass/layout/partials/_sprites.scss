@@ -1,0 +1,33 @@
+.sprites,.sprites_sm,.sprites_xs{
+  .one{
+    @include icon(logos1);
+    display: inline-block;
+  }
+  .two{
+      @include icon(logos2);
+    display: inline-block;
+    margin-left: 64px;
+  }
+  .three{
+      @include icon(logos3);
+    display: inline-block;
+    margin-left: 64px;
+  }
+  .fourth{
+    @include icon(logos4);
+    display: inline-block;
+    margin-left: 64px;
+  }
+  .five{
+    @include icon(logos5);
+    display: inline-block;
+    margin-left: 64px;
+  }
+  .six{
+    @include icon(logos6);
+    display: inline-block;
+    margin-left: 64px;
+  }
+}
+
+
