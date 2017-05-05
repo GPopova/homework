@@ -1,0 +1,55 @@
+.header{
+  min-height: 564px;
+  padding-top: 26px;
+  font-family: $bebas-neue;
+  font-size: 17px;
+  background-color: $white;
+  color: $white;
+  .logo{
+    padding-bottom: 16px;
+    .aditi{
+      color: #3bc3b4;
+      font-family:$lobster-1-4;
+      font-size: 49px;
+      margin: -10px 25px;
+    }
+    .input {
+      text-align: center;
+      input {
+        background-image: url("/images/serch2.png");
+        background-repeat: no-repeat;
+        background-position: 406px;
+        width: 436px;
+        height: 34px;
+        border: 1px solid #e1e1e1;
+        font-size: 18px;
+      }
+    }
+    .korzina{
+      text-align: right;
+      margin: 4px 20px;
+      @include before-absolute{
+        @include icon(korzina_1);
+        left:110px;
+        top:-4px;
+      }
+      p{
+        color: #a0a0a0;
+        font-size: 33px;
+      }
+      }
+    }
+
+  .sliders {
+    background-color: #38c0b2;
+    .featured{
+      padding:16px 0;
+      p{
+        padding-left: 56px;
+        font-size: 31px;
+        text-align: left;
+      }
+    }
+  }
+
+}

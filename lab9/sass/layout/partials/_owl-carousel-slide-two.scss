@@ -1,0 +1,30 @@
+.slider2 {
+  .slide-two {
+    position: relative;
+    .owl-dots {
+      display: none;
+    }
+    .owl-nav {
+      display: block;
+      color: transparent;
+      .owl-prev {
+        width: 29px;
+        height: 88px;
+        content: '';
+        background: url("/images/strelka-left.png");
+        left: -40px;
+        top: 20px;
+        position: absolute;
+      }
+      .owl-next {
+        width: 29px;
+        height: 88px;
+        content: '';
+        background: url("/images/strelka-right.png") ;
+        right: -40px;
+        top: 20px;
+        position: absolute;
+      }
+    }
+  }
+}

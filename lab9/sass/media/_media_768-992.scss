@@ -1,0 +1,117 @@
+@media (max-width: 991px) {
+  .container {
+    [class*="col-"] {
+      padding: 0 20px;
+    }
+  }
+  .header{
+  .logo{
+    .aditi{
+      font-size: 47px;
+    }
+    .input{
+      input{
+        background-position: 330px;
+        width: 360px;
+        height: 30px;
+      }
+    }
+    .korzina{
+      @include before-absolute{
+        left:34px;
+        top:-4px;
+      }
+    }
+
+  }
+
+    .sliders{
+      .slider1 {
+        .img {
+          img {
+            height: 280px;
+            width: 246px;
+            margin-left: 20px;
+          }
+        }
+        .text {
+          margin-left: 15px;
+          margin-top: 50px;
+          max-width: 350px;
+          h1 {
+            font-size: 48px;
+          }
+          p {
+            font-size: 15px;
+            margin: 10px 0px 28px;
+          }
+        }
+      }
+      .slider2{
+        .slide-two {
+          .owl-nav {
+            .owl-prev {
+              left: -20px;
+            }
+            .owl-next {
+              right: -20px;
+            }
+          }
+        }
+      }
+      .featured{
+        padding:12px 0;
+        p{
+          padding-left: 0;
+          font-size: 28px;
+        }
+      }
+
+    }
+  }
+  .content{
+    [class*="product"]{
+      width: 196px;
+      height: 220px;
+      float:left;
+      margin-left: 0;
+      img{
+        margin:10px 0;
+      }
+      h3{
+        font-size: 25px;
+      }
+      a{
+        padding: 2px 10px;
+      }
+      p{
+        font-size: 25px;
+      }
+    }
+    .up{
+      .product1{
+        img{
+          margin: 15px 0 30px;
+        }
+      }
+    }
+    .down{
+      .product1{
+        img{
+          margin:5px 0;
+        }
+      }
+    }
+  }
+  .footer{
+    .menubottom{
+      ul{
+        display: inline-block;
+        margin:0 10px;
+      }
+      .first{
+        margin-left: 0;
+      }
+    }
+  }
+}

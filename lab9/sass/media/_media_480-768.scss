@@ -1,0 +1,135 @@
+@media (max-width: 767px){
+.header {
+  .logo {
+    padding-bottom: 0;
+    .aditi {
+      font-size: 42px;
+      text-align: center;
+    }
+    .input {
+      text-align: left;
+      input {
+        background-position: 270px;
+        width: 300px;
+        margin-top: 14px;
+      }
+    }
+    .korzina {
+      margin: 12px 0px;
+      position: relative;
+      @include before-absolute {
+        left: -22px;
+        top: -8px;
+      }
+    }
+
+  }
+  .menutop_sm {
+    .inline {
+      ul {
+        li {
+          margin: 0 8px;
+          @include before-absolute {
+            margin: 3px -10px;
+          }
+          a {
+            font-size: 21px;
+          }
+        }
+        .home {
+          margin-left: 0;
+        }
+      }
+    }
+    .nav {
+      ul {
+        width: 150px;
+        margin-left: -15px;
+      }
+    }
+  }
+  .sliders{
+  .slider1 {
+    .img {
+      img {
+        height: 204px;
+        width: 180px;
+        margin:0 0;
+      }
+    }
+    .text {
+      margin-left: 20px;
+      margin-top: 20px;
+      max-width: 220px;
+      margin-bottom: 50px;
+      h1 {
+        font-size: 36px;
+      }
+      p {
+        font-size: 13px;
+      }
+      a{
+        font-size: 24px;
+      }
+    }
+  }
+  .slider2 {
+    .one, .two, .three {
+      margin: 0 auto;
+      @include after-absolute {
+        display: none;
+      }
+    }
+    .one {
+      h3 {
+        margin-left: 200px;
+      }
+      a{
+        margin-left: 30px;
+      }
+    }
+  }
+}
+}
+  .content{
+    [class*="product"]{
+      width: 150px;
+      height: 192px;
+      img{
+        width:90px;
+      }
+      h3{
+        font-size: 22px;
+      }
+    }
+    .up{
+      .product1{
+        img{
+          margin: 25px 0 30px;
+        }
+      }
+    }
+    .down{
+      .product1{
+        img{
+          margin:17px 0;
+        }
+      }
+      .product3{
+        img{
+          width: 60px;
+        }
+      }
+    }
+  }
+  .footer{
+  .menubottom{
+    ul{
+      margin: 5px 0 5px 50px;
+    }
+    .first{
+      margin-left: 50px;
+    }
+  }
+  }
+}

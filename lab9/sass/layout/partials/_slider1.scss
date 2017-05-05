@@ -1,0 +1,36 @@
+
+.slider1 {
+  padding: 60px 0 26px;
+  text-align: center;
+    .img {
+      img {
+        height: 326px;
+        width: 286px;
+        display: inline-block;
+        float: left;
+        margin: 20px 65px;
+      }
+    }
+    .text {
+      text-align: left;
+      display: inline-block;
+      margin: 54px 0;
+      max-width: 406px;
+      h1 {
+        font-size: 61px;
+        text-transform: uppercase;
+      }
+      p {
+        font-family: $open-sans-l;
+        font-size: 17px;
+        margin: 20px 0;
+        margin-bottom: 36px;
+      }
+      a {
+        font-size: 27px;
+        border: 2px solid $white;
+        border-radius: 5px;
+        padding: 0 24px;
+      }
+    }
+}

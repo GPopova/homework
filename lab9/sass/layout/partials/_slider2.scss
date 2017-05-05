@@ -1,0 +1,54 @@
+.slider2{
+  background-color: $white;
+  min-height: 190px;
+  padding: 34px 0;
+  .one,.two,.three{
+    @include after-absolute{
+      border-left: 2px solid #e7e7e7;
+      height: 185px;
+      left:102%;
+    }
+    img{
+      float: left;
+    }
+    width:340px;
+    display: block;
+    margin: 0px 24px;
+    h3{
+      width:80px;
+      position: absolute;
+      margin:30px 175px;
+    }
+    a{
+      padding: 4px 14px;
+      border-radius: 3px;
+      background-color: #3cc395;
+      position: absolute;
+      margin: 95px 5px;
+    }
+  }
+  .one{
+    img {
+      width: 170px;
+      height: 142px;
+    }
+  }
+  .two{
+    img {
+      width: 120px;
+      height: 133px;
+    }
+    a{
+      margin: 95px 56px;
+    }
+  }
+  .three{
+    img {
+      width: 80px;
+      height: 128px;
+    }
+    a{
+      margin: 95px 95px;
+    }
+  }
+}

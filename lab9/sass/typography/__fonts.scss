@@ -1,0 +1,23 @@
+$font: "../fonts";
+
+@font-face {
+  font-family: 'lobster_1_4';
+  src: url('#{$font}/Lobster/lobster_1_4/lobster_1_4.eot');
+  src: url('#{$font}/Lobster/lobster_1_4/lobster_1_4?#iefix') format('embedded-opentype'),
+  url('#{$font}/Lobster/lobster_1_4/lobster_1_4.woff') format('woff'),
+  url('#{$font}/Lobster/lobster_1_4/lobster_1_4.ttf')  format('truetype');
+}
+@font-face {
+  font-family: 'OpenSansLight';
+  src: url('#{$font}/OpenSansLight/OpenSansLight.eot');
+  src: url('#{$font}/OpenSansLight/OpenSansLight?#iefix') format('embedded-opentype'),
+  url('#{$font}/OpenSansLight/OpenSansLight.woff') format('woff'),
+  url('#{$font}/OpenSansLight/OpenSansLight.ttf')  format('truetype');
+}
+@font-face {
+  font-family: 'BebasNeue';
+  src: url('#{$font}/Bebas/BebasNeue/BebasNeue.eot');
+  src: url('#{$font}/Bebas/BebasNeue/BebasNeue?#iefix') format('embedded-opentype'),
+  url('#{$font}/Bebas/BebasNeue/BebasNeue.woff') format('woff'),
+  url('#{$font}/Bebas/BebasNeue/BebasNeue.ttf')  format('truetype');
+}

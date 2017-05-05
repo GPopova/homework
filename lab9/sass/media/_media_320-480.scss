@@ -1,0 +1,51 @@
+@media (max-width: 480px){
+  .header {
+    .logo {
+      .input {
+        input {
+          background-position: 160px;
+          width: 188px;
+        }
+      }
+      .korzina {
+        @include before-absolute {
+          left: -50px;
+        }
+      }
+
+    }
+    .menutop_sm {
+      .nav {
+        ul {
+          width: 120px;
+        }
+      }
+    }
+    .sliders{
+      .slider1 {
+        .text {
+          max-width: 140px;
+          .xs_margin{
+            margin-bottom: 20px;
+          }
+          p {
+            display: none;
+          }
+        }
+      }
+    }
+  }
+  .footer{
+    .menubottom {
+      .first{
+        margin: 0 auto;
+      }
+      ul {
+        margin: 0 auto;
+        li {
+          display: none;
+        }
+      }
+    }
+  }
+}

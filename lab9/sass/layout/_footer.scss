@@ -1,0 +1,30 @@
+.footer{
+  .menubottom{
+    background-color: #3cc3b5;
+    padding:40px 0;
+    ul{
+      margin:0 40px;
+      h3{
+        color: $white;
+        padding-bottom: 10px;
+      }
+      li{
+        margin-left: 4px;
+        a{
+          font-family: $open-sans-l;
+          font-size: 15px;
+          text-transform: none;
+        }
+      }
+    }
+  }
+  .copyright{
+    background-color: #2da89b;
+    text-align: center;
+    padding:15px 0;
+    p{
+      font-family:$open-sans-l;
+      font-size: 15px;
+    }
+  }
+}
